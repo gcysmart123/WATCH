@@ -1,0 +1,9 @@
+---- parse_sevice Matches (4 in 3 files) ----
+Keyproc.c:    if(parse_sevice(&rf,dat))    //收到无线码，并解析正确
+Keyproc.c:int8_t parse_sevice(RF_list_def *rf,uint32_t dat)
+Keyproc.h:int8_t parse_sevice(RF_list_def *rf,uint32_t dat);  //解析无线接收
+Main.c:                if(parse_sevice(&RFlst,Decode))
+---- parse_sevice Search Errors Encountered (2) ----
+The following 2 files could not be processed:
+F:\泉州师院\兼职\科奇电子\手表\(CN)8051_ISP(U2)_Programmer_v7.10\(CN)8051_ISP(U2)_Programmer_v7.10\20160319_修改菜单\src\手表苏.IAB : File could not be opened.
+F:\泉州师院\兼职\科奇电子\手表\(CN)8051_ISP(U2)_Programmer_v7.10\(CN)8051_ISP(U2)_Programmer_v7.10\20160319_修改菜单\src\手表苏.IMB : File could not be opened.
